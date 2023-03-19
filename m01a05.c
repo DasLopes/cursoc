@@ -10,3 +10,13 @@ void main(){
 
     printf("%s é do sexo %c, tem %i anos e pesa %.1fKg.", nome, sexo, idade, peso);
 }
+/*
+Regras linguagem C
+
+Toda variavel começa com letra
+Maiusculas e minusculas fazem diferença
+Só usa letras, números e sublinhado
+Nada de acentos
+Não pode ter simbolos (só o sublinhado)
+Não pode ser uma palavra reservada
+*/
