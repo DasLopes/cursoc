@@ -2,6 +2,7 @@
 void main(){
     char nome[30];
     printf("Digite seu nome: ");
+    fflush(stdin);
     gets(nome);
     printf("Voce digitou %s", nome);
 }
