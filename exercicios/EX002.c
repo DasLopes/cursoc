@@ -4,12 +4,11 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
     printf("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
-    printf("\a\n");
-    printf("\\a\t=\t\tBeep\n");
-    printf("\\n\t=\t\tNova linha\n");
-    printf("\\t\t=\t\tTabulação\n");
-    printf("\\\\ \t=\t\tBarra\n");
-    printf("%%%%\t=\t\tPorcentagem\n");
-    printf("\\\?\t=\t\tInterrogação\n");
+    printf(" \\a \t=\t Beep\n");
+    printf(" \\n \t=\t Nova linha\n");
+    printf(" \\t \t=\t Tabulação\n");
+    printf(" \\\\ \t=\t Barra\n");
+    printf(" %%%% \t=\t Porcentagem\n");
+    printf(" \\\? \t=\t Interrogação\n");
     printf("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 }
