@@ -11,7 +11,7 @@ void main(){
     scanf("%f", &nota2);
     media = (nota1 + nota2) / 2;
     printf("-----------------------------------\n");
-    if(media > 7)printf("MEUS PARABÉNS!");
+    if(media >= 7)printf("MEUS PARABÉNS!");
     printf(" A sua média final foi %.1f", media);
     printf("\n------------------------------------\n");
 }
