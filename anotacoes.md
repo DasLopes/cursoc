@@ -17,3 +17,29 @@ void main(){
 // comentário na mesmo linha
 /* comentário em multriplas linhas */
 
+Tipos primitivos
+
+char
+int
+float
+double
+
+
+saídas formatadas
+
+%d ou %i    inteiro
+%f          float
+%c          char
+%s          strings
+%u          unsigned
+%e          notação simbolo matemático
+%hd         short int
+%ld         long int
+%hu         unsigned sort
+%lu         unsigned long
+
+exemplo
+
+printf("Seu peso atual é %.1fKg.", 70.5) //formatada com uma casa decimal após o ponto.
+
+
