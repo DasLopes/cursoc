@@ -42,4 +42,27 @@ exemplo
 
 printf("Seu peso atual é %.1fKg.", 70.5) //formatada com uma casa decimal após o ponto.
 
+//Entrada de dados
+
+//lendo números
+
+int num;
+float med;
+
+scanf("%i", &num);
+scanf("%f", &med);
+
+//lendo caracteres
+
+char resp;
+scanf("%c", &resp);
+resp = getchar(); //recomendavel
+
+//lendo strings
+
+char nome[30];
+scanf("%s", &nome);
+gets(nome); //recomendavel
+
+
 
