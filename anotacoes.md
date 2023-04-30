@@ -64,5 +64,17 @@ char nome[30];
 scanf("%s", &nome);
 gets(nome); //recomendavel
 
+//gerando números aleatórios
+
+#import <stdio.h>
+#import <stdlib.h>
+#import <time.h>
+void main (){
+    srand(time(NULL));
+    int n = rand() % 10; // gera números entre 0 e 9
+    int n = rand() % 10+1; //gera números entre 1 e 10
+    int n = rand() % 50+1; //gera números entre 1 e 50
+}
+
 
 
